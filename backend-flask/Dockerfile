@@ -8,7 +8,7 @@ RUN pip install -r requirements.txt
 
 COPY . . 
 
-ENV FLASK_ENV=development FRONTEND_URL="*" BACKEND_URL="*"
+ENV FLASK_ENV=development BACKEND_URL="*"
 
 EXPOSE ${PORT}
 
