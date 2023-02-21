@@ -12,6 +12,7 @@ ENV FLASK_ENV=development FRONTEND_URL="*" BACKEND_URL="*"
 
 EXPOSE ${PORT}
 
+# python3 -m flask run --host=0.0.0.0 --port=4567
 CMD [ "python3", "-m", "flask", "run", "--host=0.0.0.0", "--port=4567" ]
 
 
